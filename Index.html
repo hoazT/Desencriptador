@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <main class="pagina">
+        <div class="principal">
+            <div id="logo">
+                <img src="/Archivos/Logo.png" alt="Logo allura latam">
+            </div>
+            <div>
+            <div class="principalEncriptador">
+            <input type="text" id="textoPlano">
+            <div id="mensajeAlerta">
+            <img  id="logoAlerta" src="/Archivos/Group.png" alt="signo de alerta">
+            <p>sólo letras minúsculas sin acento</p>
+            </div>
+            <div id="espacioBotones">
+            <button onclick="cambiarTextoElemento(texto, elemento)" id="encriptar">Encriptar</button>
+            <button id="desencriptar">Desencriptar</button>
+            </div>
+            </div>
+        </div>
+        <div id="espacioDesencriptador" >
+            <div id="espacioDesencriptado">
+            <img id= "muñeco" src="/Archivos/Muñeco.png" alt="Muñeco con lupa">
+                <div id="estadoMensajes">
+                <p id="estadoMensaje1"><strong>Ningún mensaje fue encontrado</strong></p>
+                <p id="estadoMensaje2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </main>
+        <footer class="foo"> 
+            <p><strong> Desarrollado por Michael Ag.</strong> </p>  
+            <p>27/08/2024.</p>
+        </footer>
+        <script src="/encriptDecript.js"></script>
+    </body>
+</html>

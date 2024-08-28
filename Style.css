@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.pagina{
+    background-color: lightgray;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+}
+.principalEncriptador{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 10.5rem;
+    width: 50rem;
+}
+#textoPlano{
+    width: 25rem;
+    height: 3rem;
+}
+#logoAlerta{
+    width:1rem;
+    height: 1rem;
+}
+#mensajeAlerta{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 16rem;
+    gap:0.5rem;
+    padding-bottom: 1rem;
+}
+#espacioBotones{
+    display: flex;
+    gap:1rem;
+}
+#encriptar{
+    width:20.5rem;
+    height: 4.1875rem;
+    border-radius:1rem;
+    background-color: #0A3871;
+    color:white;
+    border:none;
+}
+#desencriptar{
+    width:20.5rem;
+    height: 4.1875rem;
+    border-radius:1rem;
+}
+#espacioDesencriptador{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:2rem;
+    padding-right: 2rem;
+    padding-bottom: 0;
+}
+#muñeco{
+    width:70%;
+}
+#espacioDesencriptado{
+    padding-top:4rem;
+    width: 22rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: initial;
+    border-radius: 1rem;
+    background-color: white;
+    gap:3rem;
+}
+#estadoMensajes{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+}
+#estadoMensaje1{
+    text-align: center;
+}
+#estadoMensaje2{
+    text-align: center;
+}
+.foo{
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    gap:0.2rem;
+    padding-left:2rem ;
+    color: rgb(177, 175, 240);
+    background-color: #0A3871;
+    font-size: 14px;
+}
+@media(min-width:50px){
+    .body{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .pagina{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    espacioEncriptado{
+        width:10%;
+
+    }
+
+}
+
